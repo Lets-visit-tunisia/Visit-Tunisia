@@ -9,25 +9,33 @@ var tunisiaCard = [
  image: "./img/Hammamet.jpg"
 },
 { name:"Mahdia" ,
- image: "./img/Sousse.jpg"
+ image: "./img/Mahdia.jpg"
 },
 { name:"Tataouine" ,
- image: "./img/Sousse.jpg"
+ image: "./img/Tataouine.jpg"
 },
-{ name:"tozeur" ,
- image: "./img/Sousse.jpg"
+{ name:"Tozeur" ,
+ image: "./img/Tozeur.jpg"
 },
 { name:"ElJem" ,
  image: "./img/ElJem.jpg"
 },
+{ name:"ElJem" ,
+ image: "./img/ElJem.jpg"
+},
+{
+    
+}
 
 ];
-//added by Ali
-$("#btn").on("click",function(){
-$("img").attr("src",tunisiaCard["click"].image)}
-	
 
- /*function onclick(tunisiaCard){
- 	return map()
- }
-*/
+
+//
+ 
+$( "select" ).change(function(){
+    for(var i=0;i<tunisiaCard.length;i++){
+        if(event.target.value === tunisiaCard[i].name){
+         $("img").attr("src",tunisiaCard[i].image)
+        }
+    }
+  });
