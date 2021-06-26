@@ -1,4 +1,63 @@
 h1 {
     text-align:center;
-      font-size: 500%
+      font-size: 300%;
+      color : #A52A2A
+}
+p   {
+    font-size: 180%;
+    color: #A52A2A;
+    text-transform: uppercase;
+     font-family: "Lucida Console", "Courier New", monospace;
+     text-align: right;
+}
+a{
+  font-size: 150%
+
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+  background-color: whitesmoke;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+ background-image: url(https://www.traveloffpath.com/wp-content/uploads/2020/06/Tourists-in-the-street-of-tunisia-768x770.jpg.webp);
+  color: black;
+  font-size: 30px;
+b
+}
+
+.navbar {
+  background: white;
+  margin: 0%;
+  height: 30px;
+
+
+}
+#a1{
+  color : black;
+  
+
+}
+
+#a2{
+  color: black;
+  
+}
+
+#a3{
+  color: black ;
+  
+}
+#gen{
+  padding: 30px;
+}
+#quiz-start-screen{
+  padding: 20px;
+  color: black;
+  fonte-color : black
 }
