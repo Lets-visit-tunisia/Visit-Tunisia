@@ -2,19 +2,57 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<script
-  src="https://code.jquery.com/jquery-3.6.0.slim.js"
-  integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
-  crossorigin="anonymous"></script>
+	<head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>    </head>
 	<meta charset="utf-8">
     <title></title>
 </head>
 <body>
 
-	<h1>Visit Tunisia</h1>
-	<video autoplay muted loop id="myVideo">
-  <source src="https://www.youtube.com/watch?v=OtJVufo3IrA" type="video/mp4">
+ <div class="header">
+  <h1>Visit Tunisia</h1>
+  <p>Welcome</p>
+  </div>
+
+<div class = "navbar">
+  <a id ="a1"href="https://www.booking.com/country/tn.fr.html?aid=1610680;label=tn-oRmwN8kj*tZEDBFBVnPirQS379608167472:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-301631792100:lp1012760:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YURcq_26dhSxO_kD28P4Rwg;ws=&gclid=Cj0KCQjw2tCGBhCLARIsABJGmZ5G6dWJrp0aLdR_9BVOzYc4EGbUjXydotnSgmuyKlXrsbFwoKm6UGoaAtl3EALw_wcB">Discover hotel</a>
+  <a id="a2"href="http://tourisme.gov.tn/accueil.html">Ministry Of Tourism</a>
+  <a id="a3"href="https://www.google.tn/maps/@35.3279333,8.9610112,5.75z?hl=fr">Map</a>
+  <!--we use select drop-down list-->
+
+   
+      <button id="quiz-btn" class="quiz-button">Tunisian Quiz</button>
+        <div id="quiz-start-screen">
+         </div>
+          <div id="gen">
+         
+      <input type="text" id="myInput">
+      <button type="button" id="myBtn">Response </button>
+</div>
+ <video autoplay muted loop id="myVideo">
+  <source src="./img/tunisia.mp4" type="video/mp4">
 </video>
+
+
+ <select name="Cities" >
+    <option value="Djerba" id="Dje" selected="selected">Djerba</option>
+    <option value="Sousse" id="Sou">Sousse</option>
+    <option value="Hammamet" id="Ham">Hammamet</option>
+    <option value="Mahdia" id="Mah">Mahdia</option>
+    <option value="Tataouine" id="Tata">Tataouine</option>
+    <option value="Tozeur" id="Toz">Tozeur</option>
+    <option value="Kairouan" id="Kai">Kairouan</option>
+    <option value="ElJem" id="Jem">ElJem</option>
+    <option value="Gammarth" id="Gam">Gammarth</option>
+    <option value="ElKef" id="kef">ElKef</option>
+    <option value="Bizerte" id="biz">Bizerte</option>
+  </select>
+      <div></div>
+     <img src="" id="holder">
+    </div>
+
+
+      </select>
 <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
